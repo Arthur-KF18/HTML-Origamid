@@ -26,4 +26,30 @@
 
 #### CSS Básico
 
-- 
+- __Sempre colocamos nas tags `<head>` do nosso documento html__
+- link: Cria uma relação entre um documento HTML e um arquivo de estilo CSS.
+- rel : Define o tipo de arquivo (stylesheet para CSS). __É possível linkar outros também como favicons.__
+- O css funciona da seguinte maneira:
+
+```css
+a {
+  color: black;
+  text-decoration: none;
+}
+```
+
+- a: Seletor que estamos querendo
+- {} : bloco do css
+- `color` ou `text-decoration`: propriedade que escrevemos
+- `black`: valor da propriedade, sendo qualquer que esteja sendo aplicada
+- em resumo:
+
+```css
+seletor {
+  propriedade: valor;
+}
+```
+
+- A __ordem dos elementos dentro dos arquivos CSS e do HTML irá definir o estilo selecionado__
+
+#### CSS Seletores
