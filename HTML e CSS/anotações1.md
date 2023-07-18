@@ -107,3 +107,7 @@ O Cheiro do ralo - 15:00 - Amanhã
 6.5 - Mude a cor dos links que estão dentro do título de nível 2 para seagreen.
 6.6 - Aumente a fonte dos parágrafos para 20px.
 6.7 - Mude a família da fonte de todo o site para Arial.
+
+#### Background e Cores
+
+- 
