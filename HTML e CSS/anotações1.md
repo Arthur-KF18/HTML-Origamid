@@ -53,3 +53,21 @@ seletor {
 - A __ordem dos elementos dentro dos arquivos CSS e do HTML irá definir o estilo selecionado__
 
 #### CSS Seletores
+
+- h1, p: A vírgula permite selecionarmos múltiplos elementos para a aplicação de um mesmo estilo.
+- p a: Seleciona o `a` que tiver um `p` como elemento pai (não precisa ser filho direto).
+- Por exemplo, se aplicarmos:
+
+```css
+  html a {
+    color: wheat;
+  }
+```
+
+- Será aplicada a cor especificada __a todo documento, e que será a todos os `a` presentes__
+- __Um fator importante sobre os seletores de id, que acompanham `id=""`, além de serem personalizados no css com o seletor `#nomedoid`, ele é muito específico. O problema entre ele e a as classes, é de que geralmente o id é atrelado ao JavaScript. Se termos uma função no js que procure um id específico, a repetição dele no nosso código quebraria a página__
+- Podemos adicionar mais de uma classe em uma tag HTML:
+
+```html
+<h2 class="azul grande underline">Curso de Programação</h2>
+```
