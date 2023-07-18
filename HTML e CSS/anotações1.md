@@ -14,3 +14,16 @@
   - `index.html` ou `./index.html`: Arquivo `index.html` no diretório atual `./`
   - `../index.html`: Arquivo `index.html` um diretório anterior ao atual `../`
   - `../../index.html`: Arquivo `index.html` dois diretórios anteriores ao atual
+- No nosso código, se escrevermos assim:
+
+```htm
+<h1>Carros e Bicicletas</h1>
+    <a href="produtos/carros.html">Carros</a>
+    <a href="produtos/bicicletas.html">Bicicletas</a>
+```
+
+- O que ocorre é que __quando mandamos ele procurar a pasta produtos, será no diretório atual e nele ocorrerá a busca, trazendo os arquivos de páginas que solicitamos__
+
+#### CSS Básico
+
+- 
